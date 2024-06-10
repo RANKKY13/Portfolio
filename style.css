@@ -8,7 +8,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    background: #405d4c;
+    background-image: url(images/bgb.png)
 }
 .header img{
     width: 200px;
@@ -47,7 +47,7 @@ align-items: center;
 }
 .hero-btn:hover{
     border: 1px solid #fff;
-    background: #fff;
+    background: #6b8e4e;
     transition: 1s;
     color: #405d4c;
 }
@@ -70,9 +70,9 @@ align-items: center;
 }
 .text-box h3{
     width: 90%;
-    color: #fff;
+    color: #ffffff;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -80,5 +80,26 @@ align-items: center;
     
 }
 .text-box p{
-
+    display: flex;
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+    color: #fbfcfa;
 }
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    width: 400px;
+    height: 400px;
+    margin: 200px;
+    margin-left: 60%;
+    padding: 10px;
+    
+} 
