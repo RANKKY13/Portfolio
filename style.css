@@ -47,9 +47,9 @@ align-items: center;
 }
 .hero-btn:hover{
     border: 1px solid #fff;
-    background: #6b8e4e;
+    background: #fff;
     transition: 1s;
-    color: #405d4c;
+    color: #1146a7;
 }
 .navlinks ul li a{
     color: #fff;
