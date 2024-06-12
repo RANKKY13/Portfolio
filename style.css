@@ -106,7 +106,7 @@ align-items: center;
     position: absolute;
     width: 60vw;
     transform: translate(-50%, -50%);
-    top: 8 0%;
+    top: 80%;
     left: 30%;
     display: flex;
     justify-content: space-around;
@@ -147,7 +147,7 @@ span.text{
     line-height: 0;
     
 }
-.bi{
+.bii{
 color:#030303;
 
 }
@@ -190,6 +190,86 @@ h5{
 }
 .hero-btn-2:hover{
     border: 1px solid burlywood;
-    background: rgb(57, 135, 252);
+    background: #3987fc;
     transition: 1s;
+}
+.content h2{
+    display: flex;
+    width: 10%;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #fbfcfa;
+    left: 50%;
+}
+
+.content p{
+    display: flex;
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+    color: #fbfcfa;
+    left: 20%;
+}
+
+.container-3{
+    display: flex;
+    margin-top: 10%;
+    justify-content: left;
+    float: left;
+    color: #fbfcfa;
+}
+.box{
+    justify-content: flex;
+    flex-direction: column;
+    margin: 90px;
+    left: 10%;
+}
+.bi{
+    color: #fdfeff;
+    left: 5%;
+}
+.text p{
+    margin: 20px;
+    left: 5%;
+}
+.contactForm{
+    width: 400px;
+    margin: 20px ;
+    padding: 20px;
+    background-color: #fff;
+    height: 40%;
+    border: 2px solid #3987fc;
+    box-shadow: 10px black;
+}
+.contactForm .inputBox input,
+.contactForm textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3987fc;
+    color: #030303;
+    margin: 20px;
+    border-radius: 10px;
+}
+.contactForm h2{
+    color: #3987fc;
+    font-size: 36px;
+    text-align: center;
+}
+.contactForm .input input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    margin: 10px 0;
+    
 }
