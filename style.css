@@ -8,7 +8,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(images/dev.png)
+    background-image: url(images/home\ page\ background.png)
 }
 .header img{
     width: 200px;
@@ -34,7 +34,7 @@ align-items: center;
     text-decoration: none;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 23px;
     background: white;
     position: relative;
     cursor: pointer;
@@ -83,22 +83,22 @@ align-items: center;
     display: flex;
     width: 10%;
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 30%;
+    left: 15%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     white-space: nowrap;
     color: #fbfcfa;
 }
 .col-2 img{
         max-width: 100%;
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
         margin: 80px;
         margin-left: 60%;
         padding: 10px 0;
-        bottom: 40%;
+        bottom: 50%;
       
 }
 .wrapper{
@@ -133,14 +133,14 @@ span.num{
     color: #030303;
     display: grid;
     place-items: center;
-    font-size: 3em;
+    font-size: 5em;
     font-weight: 600;
     bottom: 40%;
     
 }
 span.text{
     color: #030303;
-    font-size: 1em;
+    font-size: 3em;
     text-align: center;
     pad: 0.7em o;
     font-weight: 300;
@@ -273,3 +273,122 @@ h5{
     margin: 10px 0;
     
 }
+.contactForm span{
+    color: #030303;
+    margin-top: 10px;
+}
+.About-us h2{
+    color: #b68e22;
+    text-align: center;
+    top: 40%;
+    position: absolute;
+    right: 40%;
+    font-size: 50px;
+    text-decoration: underline;
+    
+}
+.About-us p{
+    color: #fbfcfa;
+    text-align: center;
+    top: 65%;
+    position: absolute;
+    font-size: 20px;
+}
+.header-2{
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(images/home\ page\ background.png)
+}
+.Our-Service{
+    background-color: #fffdfd;
+    min-height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Portfolio-1{
+    background-color: #635d5d;
+    min-height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Our-Service h1{
+    color: #b68e22;
+    text-align: center;
+    top: 15%;
+    position: absolute;
+    right: 40%;
+    font-size: 30px;
+    text-decoration: underline; 
+}
+/*--------Expertise Section start here------*/
+.Our-Service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 20px;
+}
+.service-col{
+    flex-basis: 31%;
+    background: rgb(235, 232, 229);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px 22px;
+    box-sizing: border-box;
+    transition: 1.5s;
+    left: 1%;
+    margin: 10px;
+}
+
+.service-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    text-decoration: underline;
+    color: #b68e22;
+    top: 5%;
+}
+
+.service-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.service-col h5{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #b68e22;
+}
+.service-col ul li{
+    color: #777;
+    white-space: nowrap;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
