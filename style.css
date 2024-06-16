@@ -360,29 +360,32 @@ p{
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    padding: 20px;
-    left: 30%;
+    padding: 10px;
+    left: 1%;
 }
 .service-col{
-    flex-basis: 31%;
+    flex-basis: 21%;
     background: rgb(235, 232, 229);
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 30px 22px;
+    padding: 20px 32px;
     box-sizing: border-box;
     transition: 1.5s;
-    left: 10%;
+    left: 1%;
     margin: 10px;
     bottom: 10%;
 }
 
 .service-col h3{
     text-align: center;
-    font-weight: 600;
+    font-weight: 600;                         
     margin: 10px 0;
     text-decoration: underline;
     color: #b68e22;
     top: 5%;
+}
+.service-col p{
+    text-align: center;
 }
 
 .service-col:hover{
@@ -396,9 +399,9 @@ p{
     text-decoration: underline;
     color: #b68e22;
 }
-.service-col ul li{
+.service-col ol li{
     color: #777;
-    white-space: nowrap;
+    white-space: wrap;
     text-align: left;
     margin-bottom: 10px;
 }
@@ -406,35 +409,25 @@ p{
     min-height: fit-content;
 }
 .Portfolio-2{
-    min-height:70vh;
-    background: #635d5d;
+    min-height: 50vh;
+    background: #c7c7c7;
 }
-.portfolio-col-2{
-    flex-basis: 31%;
-    background: rgb(235, 232, 229);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 80px 33px;
-    box-sizing: border-box;
-    transition: 1.5s;
-    right: 90%;
-    margin: 150px;
-    align-items: center;
-    bottom: 70%;
-}
+
 .portfolio-col-2 h2{
     top: 10;
     font-size: 40px;
     text-decoration: underline;
     color: #b68e22;
     white-space: nowrap;
+    text-align: center;
     
 } 
 .portfolio-col-2 p{
     text-align: center;
-    color: #979191;
+    color: #f8f5f5;
     font-size: 40px;
     bottom: 50%;
+    
 }
 
 .portfolio-row{
@@ -442,22 +435,29 @@ p{
     display: flex;
     margin: 0px;
     padding: 20px;
-    align-items: center;
+    align-items: center
 }
-.portfolio-col-2{
-    flex-basis: 31%;
+.Portfolio-2 h1{
+    color: #b68e22;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.portfolio-row-2{
+    display: flex;
+    align-items: center;
+    left: 50%;
+}
+.service-col-2{
+    flex-basis: 21%;
     background: rgb(235, 232, 229);
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 80px 33px;
+    padding: 20px 32px;
     box-sizing: border-box;
     transition: 1.5s;
-    right: 90%;
-    margin: 150px;
-    align-items: center;
-    bottom: 70%;
+     
+    
 }
-
 
 /*------------------------------------Portfolio Page -----------------------------------------------------*/
 .web-img img{
@@ -466,12 +466,12 @@ p{
     justify-content: space-between;
     left: 50%;
     right: 50%;
-    padding: 20px;
+    padding: 40px;
 
 }
 .web-img h2{
     color: #b86060;
-    font-size: large;
+    font-size: 30px;
     text-align: center;
    
 }
@@ -482,4 +482,7 @@ p{
     background-size: cover;
     position: relative;
     background-image: url(images/home\ page\ background.png)
+}
+.hero-btn-3{
+    color: #1146a7;
 }
